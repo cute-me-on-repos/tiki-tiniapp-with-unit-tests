@@ -184,7 +184,7 @@ globalThis.Component = mockComponentCreator;
 Dựa vào phần mocking ở phía trên, chúng ta đã có thể thêm và pass các bài test cơ bản hay gặp mà không gặp quá nhiều khó khăn:
 ht
 
-[![passed tests](tps://raw.githubusercontent.com/cute-me-on-repos/tiki-tiniapp-with-unit-tests/main/passed-tests.png)](https://github.com/cute-me-on-repos/tiki-tiniapp-with-unit-tests)
+[![passed tests](https://raw.githubusercontent.com/cute-me-on-repos/tiki-tiniapp-with-unit-tests/main/passed-tests.png)](https://github.com/cute-me-on-repos/tiki-tiniapp-with-unit-tests)
 
 
 
