@@ -1,0 +1,7 @@
+*.sh
+*.md
+**/*.md
+**/*.sh
+
+src/lib
+dist

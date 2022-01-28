@@ -1,0 +1,10 @@
+<button onTap="tapButton"> click to generate QR for {{link}}</button>
+<view>{{link}}</view>
+<view>https://developers.tiki.vn</view>
+<view>{{'https://developers.tiki.vn'}}</view>
+<view>{{"https://developers.tiki.vn"}}</view>
+<view>{{link||"nah nah"}}</view>
+<view>{{link}}</view>
+<canvas id="qr-code" class="qr-code" width="{{size}}" height="{{size}}"/>
+
+ 

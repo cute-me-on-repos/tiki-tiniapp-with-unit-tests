@@ -1,0 +1,40 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": [
+    "stylelint-csstree-validator"
+  ],
+  "rules": {
+    "csstree/validator": true, 
+    "selector-class-pattern":null,
+    "keyframes-name-pattern":null,
+    "color-function-notation": null,
+    "declaration-block-no-redundant-longhand-properties":null,
+    "no-empty-source": null,
+    "value-keyword-case": null, 
+    "selector-list-comma-newline-after":null,
+    "unit-no-unknown": [
+      true,
+      {
+        "ignoreUnits": [
+          "rpx"
+        ]
+      }
+    ],
+    "comment-empty-line-before": null,
+    "selector-type-no-unknown": [
+      true,
+      {
+        "ignore": [
+          "custom-elements",
+          "default-namespace"
+        ],
+        "ignoreTypes": [
+          "view",
+          "text",
+          "image",
+          "page"
+        ]
+      }
+    ]
+  }
+}

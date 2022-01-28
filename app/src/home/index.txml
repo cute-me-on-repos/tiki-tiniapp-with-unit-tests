@@ -1,0 +1,5 @@
+<view>
+    <view>Home page:</view>
+    <view>Would you mind clicking the button below, please</view>
+    <the-button></the-button>
+</view>

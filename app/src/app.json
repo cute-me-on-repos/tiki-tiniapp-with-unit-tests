@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "/home/index" 
+  ],
+  "window": {
+    "defaultTitle": "Hello world",
+    "backgroundColor": "#fff",
+    "transparentTitle": "none",
+    "allowsBounceVertical": "YES",
+    "pullRefresh": "YES",
+    "enableCache": "NO"
+  }
+}
