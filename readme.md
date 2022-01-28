@@ -107,7 +107,7 @@ Trong bài chia sẻ này tôi sẽ dùng jest và babel. Các bạn có thể t
 ---
 ## Example tests
 ### Mocking
-Ý tưởng ở đây là khi mocking, chúng ta sẽ intecept global function `Component` hay `Page` để lấy các config, init data, methods và lifecycle methods sau đó map lại binding và trigger các unit mà ta cần test. Thông qua việc này ta có thể lấy được out put cần test.
+Ý tưởng ở đây là khi mocking, chúng ta sẽ intercept global function `Component` hay `Page` để lấy các config, init data, methods và lifecycle methods sau đó map lại binding và trigger các unit mà ta cần test. Thông qua việc này ta có thể lấy được out put cần test.
 
 Các JSAPI global đơn giản là api của Tini App cung cấp nên chúng ta không cần test lại chúng, haỹ giả định out put của chúng luôn đúng và chỉ tập trung phần code của bạn. 
 
