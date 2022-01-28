@@ -56,7 +56,7 @@ globalThis.my.createCanvasContext = (id) => {
 globalThis.Component = mockComponentCreator;
 
 
-// tests
+// stupid tests
 describe("Myapp: common stupid test cases:", () => {
 
   beforeAll(() => {
