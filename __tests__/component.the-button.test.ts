@@ -66,7 +66,7 @@ describe("Myapp: common stupid test cases:", () => {
     expect(mockComponentCreator).toHaveBeenCalledTimes(1)
     done();
   });
-  test("tab generate QR with size expected", (done) => {
+  test("tab generate QR with expected size", (done) => {
     Instance.generateQR("https://developers.tiki.diferent-here");
     expect((Instance.data.size)).toEqual(148)
     done();
