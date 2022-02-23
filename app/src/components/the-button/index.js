@@ -1,5 +1,6 @@
 import QRCode from "qrcode";
 import Utils from "qrcode/lib/renderer/utils";
+
 const createComponent = async () => {
 
     const componentConfig = ({

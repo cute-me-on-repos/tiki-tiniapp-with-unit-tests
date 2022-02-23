@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   env: {
     browser: true,
     es2021: true,
@@ -9,16 +9,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
+    project: ["./tsconfig.json"],
   },
-  globals: {
-    my: "readonly",
-    App: "readonly",
-    Page: "readonly",
-    Component: "readonly",
-    getApp: "readonly",
-    getCurrentPages: "readonly",
-  },
-
+  parser: "@typescript-eslint/parser",
   rules: {
     "space-infix-ops": ["error", { int32Hint: false }],
     "no-async-promise-executor": "warn",
