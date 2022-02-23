@@ -10,7 +10,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "postinstall": "husky install",
+    "postinstall": "husky install; yarn --cwd=app install",
     "lint:prettier": "prettier 'app/src' '__tests__' --loglevel silent",
     "lint:prettier:fix": "prettier 'app/src' '__tests__' --write",
     "lint:tcss": "stylelint 'app/src/**/*.tcss'",
@@ -34,6 +34,7 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-typescript": "^7.15.0",
+    "@tiki.vn/tini-types": "github:tikivn/tini-types.git#e751b66d4a2bbec7b8132a99d804fa2789589795",
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",

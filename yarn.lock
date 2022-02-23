@@ -1161,6 +1161,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@tiki.vn/tini-types@github:tikivn/tini-types.git#e751b66d4a2bbec7b8132a99d804fa2789589795":
+  version "0.2.91"
+  resolved "https://codeload.github.com/tikivn/tini-types/tar.gz/e751b66d4a2bbec7b8132a99d804fa2789589795"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
