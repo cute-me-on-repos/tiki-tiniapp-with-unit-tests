@@ -1,5 +1,5 @@
 
-# Unit test in the Tiki Tini App
+# A simple setup for Unit Testing in the Tiki Tini App
 
 [![Show off status badge -.-](https://app.travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
