@@ -1,7 +1,16 @@
+---
+title: A simple setup for Unit Testing in the Tiki Tini App
+
+image: https://raw.githubusercontent.com/cute-me-on-repos/tiki-tiniapp-with-unit-tests/main/passed-tests.png
+slug: 2022-01-21-a-simple-setup-for-unit-testing
+date: 2022-01-21
+description: Một ví dụ đơn giản về việc viết unit test cho Tiki Tini App
+---
+
 
 # A simple setup for Unit Testing in the Tiki Tini App
 
-[![Show off status badge -.-](https://app.travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Show off status badge -.-](https://camo.githubusercontent.com/c7836469d64d0cfb5952438321c47847ef635d2880291d795c3d52747b762a81/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617274253230776974682d7768792533462d627269676874677265656e2e7376673f7374796c653d666c6174)](developer.tiki.vn)
 
 ## Introduction
 
@@ -12,17 +21,17 @@ Mục đích của bài viết này là đưa ra một ví dụ đơn giản mà
 ---
 ## Table of contents
 
-- [Introduction](#Introduction)
-- [Table of contents](#Table%20of%20contents)
-- [About unit test in Tiki Tini App](#About%20unit%20test%20in%20Tiki%20Tini%20App)
-- [Environment setup](#Environment%20setup)
-	- Source code structure
-	- Setup test dependencies 
-- [Example tests](#Example%20tests])
-	- Mocking
-	- Tests 
-- [Source code](github.com/cute-me-on-repo/tiki-tiniapp-with-unit-tests)
-- [Conclusion](#Conclusion)
+- [Introduction](#introduction)
+- [Table of contents](#table-of-contents)
+- [About unit test in Tiki Tini App](#about-unit-test-in-tiki-tini-app)
+- [Environment setup](#environment-setup)
+	- [Source code structure](#source-code-structure])
+	- [Setup test dependencies](#setup-test-dependencies])
+- [Example tests](#example-tests])
+	- [Mocking](#mocking])
+	- [Test](#test]) 
+- [Source code](#source-code)
+- [Conclusion](#conclusion)
 ---
 ## About unit test in Tiki Tini App
 
@@ -33,7 +42,7 @@ Mục đích của bài viết này là đưa ra một ví dụ đơn giản mà
 ---
 ## Environment setup
 
-```JS
+```ts
 // jest.config.js file
 module.exports = () => {
 	return {
@@ -88,7 +97,7 @@ Cấu trúc dự án được sắp đặt đơn giản như sau:
 
 Trong bài chia sẻ này tôi sẽ dùng jest và babel. Các bạn có thể tham khảo dev dependencies dưới đây mà tôi sử dụng:
 
-```JSON
+```json
 // dev dependencies in ./packages.json
 {
 	"@babel/core": "^7.15.8",
@@ -189,9 +198,8 @@ ht
 
 
 ```ts
-
-
 // stupid tests
+
 describe("Myapp: common stupid test cases:", () => {
 
   beforeAll(() => {
@@ -221,7 +229,7 @@ describe("Myapp: common stupid test cases:", () => {
 ## Source code
 
 
-Các bạn có thể xem source code từ bài viết này tại [github.com/cute-me-on-repo/tiki-tiniapp-with-unit-tests](github.com/cute-me-on-repo/tiki-tiniapp-with-unit-tests)
+Các bạn có thể xem source code từ bài viết này tại [github.com/cute-me-on-repo/tiki-tiniapp-with-unit-tests](https://github.com/cute-me-on-repo/tiki-tiniapp-with-unit-tests)
 
 ---
 ## Conclusion
@@ -236,7 +244,6 @@ Tuân thủ nguyên tắc của unit test là test theo đơn vị, các phần 
 Hi vọng bài viết giúp bạn có thêm tài liệu tham khảo khi áp dụng unit test cho dự án Tini App của bạn. 
 
 ---
- (*Bài viết có nhại giọng văn của chị google, mong chị thông cảm.)*
  
  *[thien.ly](https://community.tiki.vn/u/thien.ly/summary) from the [cute me on repo](https://github.com/cute-me-on-repos) team*
 
