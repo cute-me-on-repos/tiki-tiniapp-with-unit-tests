@@ -1,4 +1,4 @@
-<!--
+
 ---
 title: A simple setup for Unit Testing in the Tiki Tini App
 
@@ -6,8 +6,7 @@ image: https://raw.githubusercontent.com/cute-me-on-repos/tiki-tiniapp-with-unit
 slug: 2022-01-21-a-simple-setup-for-unit-testing
 date: 2022-01-21
 description: Một ví dụ đơn giản về việc viết unit test cho Tiki Tini App
----
--->
+--- 
 
 
 # A simple setup for Unit Testing in the Tiki Tini App
@@ -31,7 +30,7 @@ Mục đích của bài viết này là đưa ra một ví dụ đơn giản mà
 	- [Setup test dependencies](#setup-test-dependencies)
 - [Example tests](#example-tests)
 	- [Mocking](#mocking)
-	- [Test](#test) 
+	- [Tests](#tests) 
 - [Source code](#source-code)
 - [Conclusion](#conclusion)
 ---
